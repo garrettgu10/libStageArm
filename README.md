@@ -1,7 +1,11 @@
 ![# libStageARM](https://raw.githubusercontent.com/Thinkatron/libStageArm/master/Resources/libStageArmAlt.png "libStageARM Logo")
 
+# 这是什么？
+ *__libStageARM__* 是一个用C语言编绘的库，用于和位于南方卫理公会大学（SMU）的三维机械手臂沟通。它通过一个串行接口与 Arduino 沟通。这个项目的目标是提供一个易定制，易实现的界面，包含许多简单、易用、多语言的函数。它也提供一个使用任何语言都容易编绘的串行标准。它也提供一个简单的 REST 界面，用于通过网络控制机械手臂。
+
 # What is it?
   *__libStageARM__* is a C library written to interact with the SMU 3D Stage Arm with using a simple standard serial interface. The goal of this project is to provide an easily customizable, easily implemented interface, with simple-to-use functions available in multiple languages, and a clearly defined serial interface that can be implemented an any other language. This project also provides a simple REST API for web control of the 3D Stage.
+
 # Compatibility
 |Language        |Implementation          |Tested|Succesful|
 |:--------------:|------------------------|:----:|---------|
