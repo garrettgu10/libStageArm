@@ -39,12 +39,17 @@
 >假如你创建了一个新的库，请创建一个拉拽请求。
 >
 >谢谢！
+>
 >If you test a language, please make a pull request.
 >If you create a wrapper or implementation in an unlisted language,
 >please, feel free to make a pull request with an update to the
 >table and your implementation.
 >
 >Thank you!
+
+# 串行标准
+ 
+ 
 # Serial Standard
  Any control command for the 3D Platform will be a single Byte (unsigned char / uChar / uInt_8) along, followed by a command-specific buffer array. All commands are little-endian. The Buffer Size includes the Initial Byte and the Arguments. Every action will respind with 0 for a successful action or a non-zero value for an unsuccessful action. Some actions will have specific responses for certian errors, but will usually just return 1 if they are unsuccessful.
  
