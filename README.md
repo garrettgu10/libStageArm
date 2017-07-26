@@ -35,6 +35,10 @@
 |Scilab          |SWIG Wrapper            |✗     |Unknown  |
 |Tcl             |SWIG Wrapper            |✗     |Unknown  |
 |UFFI            |SWIG Wrapper            |✗     |Unknown  |
+>请在测试某个语言之后更新此表。
+>假如你创建了一个新的库，请创建一个拉拽请求。
+>
+>谢谢！
 >If you test a language, please make a pull request.
 >If you create a wrapper or implementation in an unlisted language,
 >please, feel free to make a pull request with an update to the
